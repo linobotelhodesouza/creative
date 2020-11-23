@@ -1,0 +1,269 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.clear{
+	clear: both;/* tirando a flutuação *//
+}
+
+.container{
+	max-width: 1280px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+/*----------------------------------------------------------------------------*/
+html,body{
+	height: 100%; 
+}
+
+/** HEADER DO SITE **/
+
+header{
+	padding:20px 2%;/* espaçamento geral dado na parte superior */
+}
+
+.mosaico-single img{
+    width: 1200px;
+    height:600px;
+}
+.menu-desktop a{
+    text-decoration: none;
+}
+.menu-desktop ul li{
+    display: inline-block;
+    padding: 0 13px;
+}
+
+
+.perfil-wraper2{
+    text-align: center;
+    padding: 20px;
+}
+.texto-perfil h2{
+       padding: 15px;
+}
+
+.texto-perfil h4{
+       padding: 5px;
+}
+
+.texto-perfil p{
+       padding: 0 10px 50px;
+}
+
+.mosaico-single-two img{
+    width: 650px;
+    height:350px;
+    padding-left: 50px;
+    float: left;
+}
+.texto-perfil-central  {
+    width: 550px;
+    text-align: left;
+    float: right;
+    padding-right: 130px;
+    padding-top: 80px;
+}
+.texto-perfil-central h2 {
+    padding-bottom: 4px;
+}
+
+.texto-perfil-central h4 {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.texto-perfil-central hr {
+    width: 30%;
+}
+
+.mosaico-single-tree img{
+    width: 780px;
+    height:780px;
+    float: right;
+    padding-right: 30px;
+}
+.texto-perfil-central-two {
+    width: 550px;
+    text-align: left;
+    float: left;
+    padding-left: 130px;
+    padding-top: 250px;
+}
+.texto-perfil-central-two h2 {
+    padding-bottom: 4px;
+}
+
+.texto-perfil-central-two h4 {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.texto-perfil-central-two hr {
+    width: 30%;
+}
+
+.mosaico-final img{
+    width: auto;
+    margin-left: 15%;
+}
+
+
+
+
+
+/** SESSÃO CONTATO FORMULARIO  **/
+
+section.contato{
+	padding:60px 2%;/* espaçamento superior e inferior */
+}
+
+section.contato > h2{
+	color: #698293;
+	text-align: center;
+	font-size: 18px;	
+}
+
+section.contato form{
+	width: 100%;
+	margin: 30px auto;
+	max-width: 500px;
+}
+
+.form-wraper{
+	float: left;
+	padding: 0 10px;
+	margin-top: 10px;
+}
+
+.w100{
+	width: 100%;
+}
+
+.w50{
+	width: 50%;
+}
+
+.form-wraper span{
+	font-size: 13px;
+	color: #b4b4b4;
+}
+
+.form-wraper input[type=text]{
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 9px;
+	border: 1px solid #dadada;
+	margin-top: 8px;
+}
+
+.form-wraper textarea{
+	width: 100%;
+	margin-top: 8px;
+	padding: 8px;
+	height: 121px;
+	resize: none; /*faz com que nao se possa redimensionar o text area nem para cima nem para baixo */
+	border: 1px solid #dadada;
+}
+
+.form-wraper input[type=submit]{
+	width: 100px;
+	display: inline-block;
+	height: 35px;
+	border: 0;
+	background: #688293;
+	color: white;
+	cursor: pointer;
+	/*position: relative;
+	left: 50%;
+	transform: translateX(-50%); centralizando o botao de enviar no centro    */
+
+}
+
+/*********/
+
+
+footer{
+	padding: 40px 2%;
+	background-color: #642EFE;
+}
+
+footer .container{
+	max-width: 900px;
+}
+
+
+footer .footer-block{
+	float: left;
+	width: 33.3%;
+}
+
+.footer-block h2{
+	color: white;
+	font-weight: normal;
+	font-size: 18px;
+    
+}
+
+.footer-block p{
+	margin-top: 8px;
+	color: white;
+	font-size: 14px;
+}
+
+
+.footer-final{
+	background: #8181F7;
+	height: 40px;
+}
+
+.footer-final h2{
+	text-align: center;
+	font-weight: normal;
+	font-size: 13px;
+	padding-top: 10px;
+}
+
+/****  RESPONSIVO *****/
+
+
+@media screen and (max-width: 1024px){
+	
+}
+
+@media screen and (max-width: 768px){
+
+}
+
+
+@media screen and (max-width: 580px){
+
+
+}
+
+
+@media screen and (max-width: 480px){
+     .container{
+        width: auto;
+    }
+        .mosaico-single img{
+        width: 600px;
+        height:400px;
+    }
+    .perfil-container{ 
+        padding-left: 70%;
+    }
+    
+    .texto-perfil h4{
+           padding: 5px;
+    }
+
+    .texto-perfil p{
+           padding: 0 10px 50px;
+    }
+
+}
