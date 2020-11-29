@@ -288,14 +288,14 @@ footer .footer-block{
 }
 
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 320px){
     
     .container{
         width: auto;
     }
     .mosaico-single img{
-        width: 380px;
-        height:200px;
+        width: 320px;
+        height:230px;
     }
     .perfil-container{ 
         text-align:center;
@@ -304,13 +304,16 @@ footer .footer-block{
     .texto-perfil h4{
         padding: 5px;
     }
+    
+    .texto-perfil h2{
+        padding: 5px;
+    }
     .texto-perfil hr{
         width: 30%;
     }
 
     .texto-perfil p{
-        padding: 0 10px 50px;
-        text-align: justify
+        text-align: justify;
     }
     
     .mosaico-single-two img{
