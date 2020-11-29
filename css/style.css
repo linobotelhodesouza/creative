@@ -107,12 +107,23 @@ header{
 }
 
 .mosaico-final img{
-    width: auto;
-    margin-left: 15%;
+    width: 85%;
+    padding: 8% 0 0 15%;
+}
+.texto-perfil-final h2{
+       padding: 15px;
+       text-align: center;
 }
 
+.texto-perfil-final h4{
+       padding: 5px;
+       text-align: center;
+}
 
-
+.texto-perfil-final p{
+       padding: 0 10px 50px;
+       text-align: justify;
+}
 
 
 /** SESSÃO CONTATO FORMULARIO  **/
@@ -122,9 +133,9 @@ section.contato{
 }
 
 section.contato > h2{
-	color: #698293;
+	color: black;
 	text-align: center;
-	font-size: 18px;	
+	font-size: 25px;	
 }
 
 section.contato form{
@@ -236,7 +247,38 @@ footer .footer-block{
 }
 
 @media screen and (max-width: 768px){
-
+    .menu-desktop{
+        text-align: center;
+    }
+    .mosaico-single img{
+        width: 100%;
+        height: 45%;
+    }
+    .texto-perfil{
+        padding-top: 10%;
+    }
+    .mosaico-single-two img{
+        width: 80%;
+        height: 45%;
+        padding: 0;
+        margin: 0  10% 0 10%;
+    }
+    .texto-perfil-central{
+        text-align: center;
+    }
+    .mosaico-single-tree img{
+        width: 80%;
+        height: 45%;
+        margin: 8%  10% 8% 10%;
+    }
+    
+    .texto-perfil-central-two{
+        text-align: center;
+    }
+    .mosaico-single-final img{
+        width: 20%;
+        height: 25%;
+    }
 }
 
 
@@ -247,7 +289,8 @@ footer .footer-block{
 
 
 @media screen and (max-width: 480px){
-     .container{
+    
+    .container{
         width: auto;
     }
         .mosaico-single img{
