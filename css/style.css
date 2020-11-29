@@ -282,8 +282,119 @@ footer .footer-block{
 }
 
 
-@media screen and (max-width: 580px){
+@media screen and (max-width: 390px){
+    .container{
+        width: auto;
+    }
+    .mosaico-single img{
+        width: 320px;
+        height:230px;
+    }
+    .perfil-container{ 
+        text-align:center;
+    }
+    
+    .texto-perfil h4{
+        padding: 5px;
+    }
+    
+    .texto-perfil h2{
+        padding: 5px;
+    }
+    .texto-perfil hr{
+        width: 30%;
+    }
 
+    .texto-perfil p{
+        text-align: justify;
+    }
+    
+    .mosaico-single-two img{
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin:0;
+    }
+    
+    
+    .texto-perfil-central-two{
+        font-size: 15px;
+        text-align: center;
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    .texto-perfil-central h2 {
+        text-align: center;
+        padding-bottom: 10px;        
+        border: red solid 1px;
+    }
+    .texto-perfil-central h4 {
+        text-align: center;
+        padding-bottom: 10px;        
+        border: red solid 1px;
+    }
+    .texto-perfil-central hr {
+        width: 30%;
+    }
+    .texto-perfil-central p {
+        text-align: justify;
+        padding: 0;
+        border: red solid 1px;
+    }
+
+    .mosaico-single-tree img{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .texto-perfil-central-two {
+        width: 100%;
+        text-align: left;
+        float: left;
+        padding-left: 0px;
+        padding-top: 50px;
+    }
+    .texto-perfil-central-two h2 {
+        text-align: center;
+        padding-bottom: 4px;
+    }
+
+    .texto-perfil-central-two h4 {
+        text-align: center;
+    }
+    .texto-perfil-central-two hr {
+        width: 30%;
+    }
+    .texto-perfil-central-two p {
+        text-align: justify;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .mosaico-final img{
+        width: 100%;
+        padding: 0;
+    }
+    .texto-perfil-final{
+       text-align: center;
+    }
+    .texto-perfil-final h2{
+       text-align: center;
+    }    
+    .texto-perfil-final h4{
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .texto-perfil-final hr{
+       width: 30%;
+    }
+
+    .texto-perfil-final p{
+        padding: 10px;
+        text-align: justify;
+    }
 
 }
 
