@@ -292,7 +292,7 @@ footer .footer-block{
 }
 
 /* 412 x 684 */
-@media screen and (max-width: 412px){
+@media screen and (min-width: 412px){
     .menu-desktop{
         font-size: 0;
         padding-top: 40px;
@@ -389,20 +389,25 @@ footer .footer-block{
         text-align:center;
     }
     
-    .texto-perfil h4{
-        padding: 5px;
+    .texto-perfil-one h4{
+        text-align: center;
+        padding-bottom: 10px;        
     }
     
-    .texto-perfil h2{
-        padding: 5px;
+    .texto-perfil-one h2{
+        text-align: center;
+        padding-bottom: 10px;        
     }
-    .texto-perfil hr{
-        width: 30%;
-    }
+    
 
-    .texto-perfil p{
+    .texto-perfil-one p{
+        font-size: 15px;
         text-align: justify;
+        width: 100%;
+        padding: 20px;
     }
+    
+    
     
     .mosaico-single-two img{
         width: 100%;
@@ -410,33 +415,29 @@ footer .footer-block{
         padding: 0;
         margin:0;
     }
-    
-    
     .texto-perfil-central-two{
         font-size: 15px;
         text-align: center;
-        padding: 0;
         padding-top: 10px;
         padding-bottom: 30px;
     }
 
-    .texto-perfil-central h2 {
+    .texto-perfil-central-two h2 {
         text-align: center;
         padding-bottom: 10px;        
-        border: red solid 1px;
     }
-    .texto-perfil-central h4 {
+    .texto-perfil-central-two h4 {
         text-align: center;
         padding-bottom: 10px;        
-        border: red solid 1px;
     }
-    .texto-perfil-central hr {
+    .texto-perfil-central-two hr {
         width: 30%;
     }
-    .texto-perfil-central p {
+    .texto-perfil-central-two p {
+        font-size: 15px;
         text-align: justify;
-        padding: 0;
-        border: red solid 1px;
+        width: 100%;
+        padding: 20px;
     }
 
     .mosaico-single-tree img{
@@ -445,11 +446,12 @@ footer .footer-block{
         margin: 0;
     }
     .texto-perfil-central-two {
+        font-size: 15px;
         width: 100%;
-        text-align: left;
-        float: left;
-        padding-left: 0px;
-        padding-top: 50px;
+        text-align: justify;
+        padding: 0;
+        margin: 0;        
+        padding-top: 70px;
     }
     .texto-perfil-central-two h2 {
         text-align: center;
@@ -463,9 +465,10 @@ footer .footer-block{
         width: 30%;
     }
     .texto-perfil-central-two p {
+        font-size: 15px;
         text-align: justify;
         width: 100%;
-        padding: 10px;
+        padding: 20px;
     }
 
     .mosaico-final img{
@@ -487,8 +490,10 @@ footer .footer-block{
     }
 
     .texto-perfil-final p{
-        padding: 10px;
+        font-size: 15px;
         text-align: justify;
+        width: 100%;
+        padding: 20px;
     }
 
 }
