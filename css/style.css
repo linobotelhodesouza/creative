@@ -23,14 +23,7 @@ html,body{
 
 /** HEADER DO SITE **/
 
-header{
-	padding:20px 2%;/* espaçamento geral dado na parte superior */
-}
 
-.mosaico-single img{
-    width: 1200px;
-    height:600px;
-}
 .menu-desktop a{
     text-decoration: none;
 }
@@ -38,7 +31,10 @@ header{
     display: inline-block;
     padding: 0 13px;
 }
-
+.mosaico-single img{
+    width: 100%;
+    height: 50%;
+}
 
 .perfil-wraper2{
     text-align: center;
@@ -252,8 +248,136 @@ footer .footer-block{
 /****  RESPONSIVO *****/
 
 
-@media screen and (max-width: 1024px){
-	
+@media screen and (min-width: 1024px){
+    .container .menu-desktop{
+        padding: 10px; 
+    }
+    .menu-desktop ul{
+        text-align: right;
+    }
+    .menu-desktop a{
+        font-size: 15px;
+    }
+    #menu-bar{
+        background-color: red;
+        display: none;
+    }
+    .container .mosaico-single img{
+        width: 100%;
+        height:650px;
+    }
+    
+    .perfil-container{ 
+        text-align:center;
+    }
+    
+    .texto-perfil-one h4{
+        text-align: center;
+        padding-bottom: 10px;        
+    }
+    
+    .texto-perfil-one h2{
+        text-align: center;
+        padding-bottom: 10px;        
+    }
+    
+
+    .texto-perfil-one p{
+        font-size: 15px;
+        text-align: justify;
+        width: 100%;
+        padding: 20px;
+    }
+    
+
+    .mosaico-single-two img{
+        width: 60%;
+        height: 30%;
+        padding: 0;
+        margin:0;
+    }
+    .texto-perfil-central-two{
+        font-size: 15px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    .texto-perfil-central-two h2 {
+        text-align: center;
+        padding-bottom: 10px;        
+    }
+    .texto-perfil-central-two h4 {
+        text-align: center;
+        padding-bottom: 10px;        
+    }
+    .texto-perfil-central-two hr {
+        width: 30%;
+    }
+    .texto-perfil-central-two p {
+        font-size: 15px;
+        text-align: justify;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .mosaico-single-tree img{
+        width: 60%;
+        height: 70%;
+        padding: 20px;
+        margin: 0;
+    }
+    .texto-perfil-central-two {
+        font-size: 15px;
+        width: 100%;
+        text-align: justify;
+        padding: 0;
+        margin: 0;        
+        padding-top: 70px;
+    }
+    .texto-perfil-central-two h2 {
+        text-align: center;
+        padding-bottom: 4px;
+    }
+
+    .texto-perfil-central-two h4 {
+        text-align: center;
+    }
+    .texto-perfil-central-two hr {
+        width: 30%;
+    }
+    .texto-perfil-central-two p {
+        font-size: 15px;
+        text-align: justify;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .mosaico-final img{
+        width: 100%;
+        padding: 0;
+    }
+    .texto-perfil-final{
+       text-align: center;
+    }
+    .texto-perfil-final h2{
+       text-align: center;
+    }    
+    .texto-perfil-final h4{
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .texto-perfil-final hr{
+       width: 30%;
+    }
+
+    .texto-perfil-final p{
+        font-size: 15px;
+        text-align: justify;
+        width: 100%;
+        padding: 20px;
+    }
+
 }
 
 @media screen and (max-width: 768px){
