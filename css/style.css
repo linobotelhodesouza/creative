@@ -256,7 +256,7 @@ footer .footer-block{
         font-size: 15px;
     }
     #menu-bar{
-        background-color: red;
+        
         display: none;
     }
     .container .mosaico-single img{
@@ -395,6 +395,7 @@ footer .footer-block{
         transform: translateY(4px);
     }
     .nav{
+        background: red;
         transition: 0.3s ease;
         display: none;
     }
@@ -422,8 +423,8 @@ footer .footer-block{
         z-index: 1;
         width: 0;
         height: 0;
-        margin: 30px 0 20px 20px;
-        background: radial-gradient(circle, #DC052D, #DC052D);
+        margin: 30px 0 20px 60px;
+        background: radial-gradient(circle, red, red);
         border-radius: 50%; 
         transition: 0.3s ease;
     }
@@ -660,6 +661,7 @@ footer .footer-block{
         transform: translateY(4px);
     }
     .nav{
+        background: red;
         transition: 0.3s ease;
         display: none;
     }
@@ -687,8 +689,8 @@ footer .footer-block{
         z-index: 1;
         width: 0;
         height: 0;
-        margin: 30px 0 20px 20px;
-        background: radial-gradient(circle, #DC052D, #DC052D);
+        margin: 30px 0 20px 60px;
+        background: radial-gradient(circle, red, red);
         border-radius: 50%; 
         transition: 0.3s ease;
     }
@@ -887,6 +889,7 @@ footer .footer-block{
         transform: translateY(4px);
     }
     .nav{
+        background: red;
         transition: 0.3s ease;
         display: none;
     }
@@ -914,8 +917,8 @@ footer .footer-block{
         z-index: 1;
         width: 0;
         height: 0;
-        margin: 30px 0 20px 20px;
-        background: radial-gradient(circle, #DC052D, #DC052D);
+        margin: 30px 0 20px 60px;
+        background: radial-gradient(circle, red, red);
         border-radius: 50%; 
         transition: 0.3s ease;
     }
