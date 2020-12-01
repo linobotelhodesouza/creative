@@ -740,9 +740,10 @@ footer .footer-block{
     }
     .texto-perfil-central-tree h2 {
         text-align: center;
-        padding-bottom: 4px;
+        padding-bottom: 10px;
     }
     .texto-perfil-central-tree h4 {
+        padding-top: 15px;
         text-align: center;
     }
     .texto-perfil-central-tree hr {
