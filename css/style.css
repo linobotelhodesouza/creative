@@ -132,7 +132,7 @@ html,body{
 /** SESSÃO CONTATO FORMULARIO  **/
 
 section.contato{
-	padding:60px 2%;/* espaçamento superior e inferior */
+	padding:100px 2%;/* espaçamento superior e inferior */
 }
 
 section.contato > h2{
@@ -141,7 +141,7 @@ section.contato > h2{
 	font-size: 25px;	
 }
 section.contato hr{
-	width: 30%;	
+	width: 0;	
 }
 
 section.contato form{
@@ -290,72 +290,72 @@ footer .footer-block{
     }
     
 
-    .mosaico-single-two img{
-        width: 60%;
-        height: 30%;
-        padding: 0;
-        margin:0;
+    .imagem-central .mosaico-single-two img{
+        width: 50%;
+        height: 10%;
+        padding-left: 15px;
+        margin-right:20px;/*espaço entre a imagem e o texto*/
     }
-    .texto-perfil-central-two{
-        font-size: 15px;
-        text-align: center;
-        padding-top: 10px;
-        padding-bottom: 30px;
-    }
-
-    .texto-perfil-central-two h2 {
-        text-align: center;
-        padding-bottom: 10px;        
-    }
-    .texto-perfil-central-two h4 {
-        text-align: center;
-        padding-bottom: 10px;        
-    }
-    .texto-perfil-central-two hr {
-        width: 30%;
-    }
-    .texto-perfil-central-two p {
-        font-size: 15px;
-        text-align: justify;
-        width: 100%;
-        padding: 20px;
+    .imagem-central .texto-perfil-central-two{
+        width: 50%;
+        float: left;/*quadrado do texto flutuando a esquerda*/
+        padding-top: 150px;
+        padding-bottom: 20px;
+        /*border: 10px solid green;*/
     }
 
-    .mosaico-single-tree img{
-        width: 60%;
-        height: 70%;
-        padding: 20px;
-        margin: 0;
+    .imagem-central .texto-perfil-central-two h2 {
+        text-align: right;
+        padding-bottom: 10px;        
     }
-    .texto-perfil-central-two {
+    .imagem-central .texto-perfil-central-two h4 {
+        text-align: right;
+        padding-bottom: 10px;        
+    }
+    .imagem-central .texto-perfil-central-two hr {
+        width: 22%;
+        float: right;
+    }
+    .imagem-central .texto-perfil-central-two p {
+        font-size: 15px;
+        text-align: right;
+        width: 100%;
+        padding: 0;
+    }
+
+    .imagem-central .mosaico-single-tree img{width: 45%;
+        height: 10%;
+        padding-left: 15px;
+        margin-right:20px;
+    }
+    .texto-perfil-central-tree {
         font-size: 15px;
         width: 100%;
-        text-align: justify;
-        padding: 0;
-        margin: 0;        
-        padding-top: 70px;
+        text-align: left;       
+        padding-top: 100px;
+        /*border: 3px solid red;*/
     }
-    .texto-perfil-central-two h2 {
-        text-align: center;
+    .texto-perfil-central-tree h2 {
+        text-align: left;
         padding-bottom: 4px;
     }
 
-    .texto-perfil-central-two h4 {
-        text-align: center;
+    .texto-perfil-central-tree h4 {
+        text-align: left;
     }
-    .texto-perfil-central-two hr {
-        width: 30%;
+    .texto-perfil-central-tree hr {
+        width: 10%;
     }
-    .texto-perfil-central-two p {
+    .texto-perfil-central-tree p {
         font-size: 15px;
         text-align: justify;
         width: 100%;
         padding: 20px;
     }
 
-    .mosaico-final img{
-        width: 100%;
-        padding: 0;
+    .mosaico-final .mosaico-single-final img{
+        width: 50%;
+        padding-top:0%;
     }
     .texto-perfil-final{
        text-align: center;
@@ -367,8 +367,8 @@ footer .footer-block{
         text-align: center;
         padding-bottom: 10px;
     }
-    .texto-perfil-final hr{
-       width: 30%;
+    .mosaico-final .texto-perfil-final hr{
+        width: 0;
     }
 
     .texto-perfil-final p{
