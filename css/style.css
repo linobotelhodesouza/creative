@@ -398,7 +398,7 @@ footer .footer-block{
 
 
 /* 720 */
-@media screen and (max-width: 720px){
+@media screen and (max-width: 788px){
     .menu-desktop{
         font-size: 0;
         padding-top: 60px;
@@ -684,6 +684,7 @@ footer .footer-block{
         text-align:center;
     }
     .texto-perfil-one h4{
+        font-size: 15px;
         text-align: center;
         padding-bottom: 10px;        
     }
@@ -714,8 +715,9 @@ footer .footer-block{
         padding-bottom: 10px;        
     }
     .texto-perfil-central-two h4 {
+        font-size: 15px;
         text-align: center;
-        padding-bottom: 0;        
+        padding-bottom: 10px;               
     }
     .texto-perfil-central-two hr {
         width: 30%;
@@ -744,6 +746,9 @@ footer .footer-block{
         padding-bottom: 10px;
     }
     .texto-perfil-central-tree h4 {
+        font-size: 15px;
+        text-align: center;
+        padding-bottom: 10px;        
         padding-top: 15px;
         text-align: center;
     }
@@ -767,6 +772,9 @@ footer .footer-block{
        text-align: center;
     }    
     .texto-perfil-final h4{
+        font-size: 15px;
+        text-align: center;
+        padding-bottom: 10px;        
         text-align: center;
         padding-bottom: 10px;
     }
