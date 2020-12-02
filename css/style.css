@@ -240,25 +240,25 @@ html,body{
 /* Backgrounds */
 
 .bg-1 {
-  background-image: url(../img/foto1.jpg);
+  background-image: url(../img/foto2.jpg);
 }
 .bg-2 {
-  background-image: url(../img/foto2.jpg);
+  background-image: url(../img/foto4.jpg);
 }
 .bg-3 {
   background-image: url(../img/foto3.jpg);
 }
 .bg-4 {
-  background-image: url(../img/foto4.jpg);
-}
-.bg-5 {
   background-image: url(../img/foto5.jpg);
 }
-.bg-6 {
+.bg-5 {
   background-image: url(../img/foto6.jpg);
 }
-.bg-7 {
+.bg-6 {
   background-image: url(../img/foto7.jpg);
+}
+.bg-7 {
+  background-image: url(../img/foto8.jpg);
 }
 
 /*******************************/
@@ -1179,29 +1179,6 @@ footer .footer-block{
   left: 100%;
 }
 
-/* Backgrounds */
-
-.bg-1 {
-  background-image: url(../img/foto1.jpg);
-}
-.bg-2 {
-  background-image: url(../img/foto2.jpg);
-}
-.bg-3 {
-  background-image: url(../img/foto3.jpg);
-}
-.bg-4 {
-  background-image: url(../img/foto4.jpg);
-}
-.bg-5 {
-  background-image: url(../img/foto5.jpg);
-}
-.bg-6 {
-  background-image: url(../img/foto6.jpg);
-}
-.bg-7 {
-  background-image: url(../img/foto7.jpg);
-}
 
 /*******************************/
 
