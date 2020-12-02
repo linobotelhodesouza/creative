@@ -135,7 +135,6 @@ html,body{
 }
 
 /** SESSÃO GALERIA **/
-/* Gallery */
 
 .gallery {
   position: absolute;
@@ -1077,6 +1076,140 @@ footer .footer-block{
         width: 410px;
         height:230px;
     }
+/** SESSÃO GALERIA **/
+
+.gallery {
+  position: absolute;
+  top: 38%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 90%;
+  max-height: 88vw;
+  overflow: hidden;
+}
+
+.gallery:before,
+.gallery:after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 20%;
+  height: 100%;
+  z-index: 3;
+}
+
+.gallery:before {
+  left: 0;
+  background:  linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+}
+
+.gallery:after {
+  right: 0;
+  background:  linear-gradient(to left, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+}
+
+.gallery__stream {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 100%;
+}
+
+.gallery__item {
+  position: absolute;
+  width: 54%;
+  height: 100%;
+  transition: 1s all ease;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 5px;
+}
+
+.gallery__item:nth-child(1) {
+  left: 0;
+  z-index: 1;
+  transform: translateX(-100%) scale(.8);
+}
+
+.gallery__item:nth-child(2) {
+  left: 0;
+  z-index: 2;
+  transform: translateX(-50%) scale(.8);
+}
+
+.gallery__item:nth-child(3) {
+  left: 50%;
+  z-index: 4;
+  transform: translateX(-50%) scale(1);
+}
+
+.gallery__item:nth-child(4) {
+  left: 100%;
+  z-index: 2;
+  transform: translateX(-50%) scale(.8);
+}
+
+.gallery__item:nth-child(n+5) {
+  left: 100%;
+  z-index: 1;
+  transform: scale(.8);
+}
+
+/* Controllers */
+
+.gallery__prev,
+.gallery__next {
+  position: absolute;
+  top: 50%;
+  z-index: 4;
+  width: 50%;
+  height: 100%;
+  transform: translateX(-50%) translateY(-50%) scale(.8);
+  cursor: pointer;
+}
+
+.gallery__prev {
+  left: 0;
+}
+
+.gallery__next {
+  left: 100%;
+}
+
+/* Backgrounds */
+
+.bg-1 {
+  background-image: url(../img/foto1.jpg);
+}
+.bg-2 {
+  background-image: url(../img/foto2.jpg);
+}
+.bg-3 {
+  background-image: url(../img/foto3.jpg);
+}
+.bg-4 {
+  background-image: url(../img/foto4.jpg);
+}
+.bg-5 {
+  background-image: url(../img/foto5.jpg);
+}
+.bg-6 {
+  background-image: url(../img/foto6.jpg);
+}
+.bg-7 {
+  background-image: url(../img/foto7.jpg);
+}
+
+/*******************************/
+
+    .mosaico-single-imagens img{
+        width: 100%;
+        padding-bottom: 100px;
+        
+    }
     .perfil-container{ 
         text-align:center;
     }
@@ -1184,8 +1317,10 @@ footer .footer-block{
         width: 100%;
         padding: 20px;
     }
+    .container .footer-block{
+        margin-top: 10px;
+    }
 }
-
 
 @media screen and (max-width: 360px){
     .container{
